@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para Nayeli</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to right, #694d97, #268d45);
+            padding: 20px;
+        }
+
+        .carta {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carta::before {
+            content: "";
+            font-size: 100px;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            opacity: 0.2;
+        }
+
+        .carta h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 28px;
+            color: #738b52;
+        }
+
+        .carta p {
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+            font-size: 16px;
+        }
+
+        .firma {
+            font-family: 'Dancing Script', cursive;
+            font-size: 24px;
+            margin-top: 20px;
+            color: #9ab137;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .carta:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <h1>Siempre quise decirte esto, pero nunca me atreví</h1>
+        <p>
+            Hola, gordita. Espero que todo esté bien. Estoy orgulloso porque estás logrando muchas cosas en tu carrera, trabajando y estudiando. Sé que serás una gran ingeniera industrial.
+        </p>
+        <p>
+            Hay algo que nunca te dije desde la última vez que nos vimos como enamorados: te llegué a amar, y mucho, aunque lo dudes. Sé que te perdí por mis acciones y que merecías a alguien mejor que yo, pero siempre te recordaré como la mujer que me enseñó lo que es el amor, la persona que me mostró que alguien puede enamorarse de mí, que si alguien me quiere, puede hacer muchas cosas por mí. Sé que no hice nada por ti, o eso me diste a entender, y tal vez sea cierto, pero fuiste la primera mujer que me enseñó cosas del amor que nunca tuve. (No es una excusa).
+        </p>
+        <p>
+            Te preguntarás por qué pude avanzar después de ti, y es porque, después de ti, me encerré en mí mismo y no quería conocer a nadie más. Pensé que, en cualquier momento, nosotros podríamos volver, y así pasaron tres años en los que nunca pude avanzar porque vivía con tu recuerdo. Aún te quiero. No sé si es amor, porque aún no sé lo que es el amor. Dicen que, cuando amas a una persona, quieres lo mejor para ella y que sea feliz, así sea con otra persona. Yo quiero lo mejor para ti, pero cuando te veo con alguien más, eso me causa muchas cosas. No sé si es amor o celos, pero sé que aún te quiero.
+        </p>
+        <p>
+            Una vez te dije que siempre sería "v...", pero la realidad es que siempre serás tú. Tú y siempre tú. Siempre serás mi debilidad. Cuando escucho tu voz, siento que todo está bien. Cuando te veo, vuelvo a ser ese niño mimado que era contigo. Sé que tú ya pasaste la página, no te sientas mal por eso.
+        </p>
+        <p>
+            Escribo esto porque hay algo en mi pecho que me dice que te lo diga. No sé si me odias o me quieres. Ayer, antes de que me llamaras, estaba a punto de tener un ataque de pánico, pero al escuchar tu voz, sentí que todo estaba bien. No he podido conectar con nadie como lo hice contigo, no he podido sentir lo que sentí contigo.
+        </p>
+        <p>
+            Te quiero, gordita. No sé si alejarme por completo o seguir hablando contigo. Esa es mi duda, porque esta vez, al ver que creo que estás intentando algo con alguien, me "dolió", se podría decir. No lo sé...
+        </p>
+        <p>
+            Estaba pensando en salir, pero, como voy, tiene que pasar un tiempo o salir a un parque tranquilo. Jaja, ya sé que ya no te gustan los parques, pero es donde me siento tranquilo y no me da ansiedad. O tal vez podríamos conversar en algún sitio. Siento que quedaron muchas dudas por resolver... pero bueno.
+        </p>
+        <p class="firma">
+            Con cariño,<br>
+            Gabriel
+        </p>
+    </div>
+</body>
+</html>
